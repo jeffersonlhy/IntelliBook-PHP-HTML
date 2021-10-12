@@ -1,0 +1,225 @@
+* {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bebebe;
+}
+
+div.heading{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 29px;
+}
+
+div.search-panel {
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 6px 18px 5px rgb(167 167 167);
+}
+
+div.search-bar{
+    width:100%;
+    max-width: 600px;
+}
+
+div.inner-form{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 11px;
+    /* position: relative;
+    margin-top: 30px;
+    margin-bottom: 17px; */
+}
+
+input#search{
+    height: 100%;
+    width: 100%;
+    background: 0 0;
+    border: 0;
+    background: rgb(218, 218, 218);
+    display: block;
+    width: 100%;
+    padding: 10px 32px 10px 70px;
+    font-size: 16px;
+    color: #666;
+    border-radius: 19px;
+}
+
+input#search-focused{
+    height: 100%;
+    width: 100%;
+    background: 0 0;
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 32px 10px 70px;
+    font-size: 16px;
+    color: rgb(31, 31, 31);
+    border-radius: 19px;
+    box-shadow: 0 1px 1px 0 rgb(65 69 73 / 30%), 0 1px 3px 1px rgb(65 69 73 / 15%);
+}
+
+
+button.btn-search{
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    width: 40px;
+    background: 0 0;
+    border: 0;
+    fill: rgb(116, 80, 80);
+    /* -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    padding: 0;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.signup-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background: url("./img/login-bg.jpeg") no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* div.signup-container::before {
+    content: "";
+    top: 11%;
+    left: 0;
+    width: 100%;
+    height: 89%;
+    position: absolute;
+    background: url(./img/login-bg.jpeg) no-repeat center top;
+    background-size: cover;
+    filter: grayscale(70%);
+} */
+
+div.signup-heading{
+    font-size: 1.2em;
+    font-weight: 900;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: aliceblue;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+div.signup {
+    background-color: rgba(83, 83, 75, 0.7);
+    position: relative;
+    width: 500px;
+    height: 300px;
+    transform: translate(0%, -50%);
+    top: 50%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    /* left: 50%; */
+}
+
+h1#signup-heading{
+    font-size: 1.8em;
+    text-shadow: 2px;
+    font-weight: 900;
+    color: aliceblue;
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+div.button-panel{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+button.top {
+    margin-bottom: 19px;
+    margin-right: 13px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 82px;
+    background: rgb(255 255 255 / 20%);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1px;
+    border-radius: 11px;
+    padding: 2px 0px;
+}
+
+
+div.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+button.btn {
+    margin: 10px 0px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #e94016;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    width: 150px;
+    border-radius: 16px;
+}
+
+button#back-btn{
+    background: transparent;
+    border: 3px solid #e94016;
+    color:#f8f2f0;
+    /* outline:#e94016; */
+}
+
+form input.login-input{
+    height: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color:rgb(238, 238, 238);
+    background: transparent;
+    font-size: 16px;
+}
+
+::placeholder { 
+    color: rgb(214, 214, 214);
+    opacity: 1; 
+}
+

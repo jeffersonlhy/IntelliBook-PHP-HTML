@@ -1,0 +1,40 @@
+{
+    "result": [
+        {
+            "book_id": "7",
+            "book_name": "The Rule of the Land",
+            "publisher": "Faber & Faber; Main edition",
+            "category": "History",
+            "lang": "English",
+            "author": "Garrett Carr",
+            "description": "In the wake of the EU referendum, the United Kingdom's border with Ireland has gained greater significance: it is set to become the frontier with the European Union. Over the past year, Garrett Carr has travelled this border...",
+            "price": "130",
+            "published": "United Kingdom, 1 May 2017",
+            "new_arrival": "0"
+        },
+        {
+            "book_id": "8",
+            "book_name": "The Story of the Holy Land",
+            "publisher": "Lion Books",
+            "category": "History",
+            "lang": "English",
+            "author": "Peter Walker",
+            "description": "This is a highly illustrated, visually led guide through the story of the Holy Land, from Bible times to the present day. The Holy Land frequently features in today's headlines as a much fought-for territory.",
+            "price": "199",
+            "published": "United Kingdom, 22 June 2018",
+            "new_arrival": "0"
+        },
+        {
+            "book_id": "9",
+            "book_name": "Doctor Who",
+            "publisher": "BBC Books",
+            "category": "Storybook",
+            "lang": "English",
+            "author": "Terrance Dicks, Matthew Sweet, Simon Guerrier, Colin Baker",
+            "description": "In this exciting collection you'll find all-new stories spinning off from some of your favourite Doctor Who moments across the history of the series. Learn what happened next, what went on before...",
+            "price": "149",
+            "published": "United Kingdom, 24 October 2019",
+            "new_arrival": "0"
+        }
+    ]
+}

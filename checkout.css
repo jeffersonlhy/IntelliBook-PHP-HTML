@@ -1,0 +1,326 @@
+@media only screen and (max-width: 625px) {
+    body div.checkout-content{
+        padding: 10px 35px!important;
+    }
+    body table.summary-table th, table.summary-table td {
+        padding: 12px 19px;
+    }
+
+}
+
+@media only screen and (max-width: 1135px) {
+    body div.checkout-content{
+        padding: 10px 70px;
+    }
+    body div.checkout-summary, body div.address-summary {
+        width: 100%;
+        padding: 0px;
+    }
+    body div.total-price{
+        min-width: 0px;
+        width: 100%
+    }
+
+    body table.summary-table{
+        min-width: 0px;
+        width: 100%
+    }
+}
+
+* {
+    font-family: system-ui;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:#4c4c4c
+}
+
+img.icon{
+    height: 63px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+div.checkout-header{
+    height: 170px;
+    width: 100%;
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.checkout-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 100px;
+}
+
+div.checkout-inner{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 8%;
+    width: 100%;
+}
+
+div.new-customer-dialog, div.exist-customer-dialog{
+    margin: 50px 0px;
+    width: 600px;
+    padding: 30px 40px;
+}
+
+div.exist-customer-dialog{
+    height: 230px;
+}
+
+div.new-customer-dialog, div.exist-customer-dialog{
+    border-top: 10px solid #0abfbc;
+    border-radius: 8px;
+    background: #f7f7f7;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+div.new-heading, div.exist-heading{
+    font-size: 2em;
+    font-weight: 600;
+    padding: 13px 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+div.new-cust-cred{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+legend.new-cust-heading, legend.new-cust-addr-heading{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+div.new-cust-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+div.new-cust-item > label{
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+
+input.new-cust-control{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 3px;
+}
+
+button.login-btn, button.create-btn{
+    border: none;
+    background: #0abfbc;
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: #f7f7f7;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+button.login-btn:hover, button.create-btn:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 8px 3px rgb(210 208 208 / 92%)
+}
+
+div.exist-customer-dialog a, div.new-cust-btn-container{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+div.new-cust-btn-container{
+    margin-top: 43px;
+}
+
+div.checkout-summary, div.address-summary{
+    width: 1300px;
+    padding: 10px 200px;
+    margin-bottom: 35px;
+}
+
+div.summary-heading{
+    font-size: 2em;
+    font-weight: 600;
+    padding: 13px 0px;
+    margin-bottom: 5px;
+    /* text-align: center; */
+}
+
+div.summary-heading span.material-icons{
+    font-size: 1.4em;
+    color: #01a5a2;
+    position: relative;
+    top: 10px;
+
+}
+span.material-icons{
+    position: relative;
+    top: 6px;
+}
+
+div.change-cart > a > span.material-icons{
+    font-size: 1.6em;
+    color: #8c8c8c;
+    position: relative;
+    top: 6px;
+}
+
+a.change-cart-text > span{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #8c8c8c;
+}
+
+a.change-cart-text > span:nth-child(2){
+    padding: 2px 3px;
+}
+
+
+a.change-cart-text > span:nth-child(2):hover{
+    padding: 3px 0px;
+    outline: 1px solid #01a5a2;
+    color:#01a5a2;
+    padding: 2px 3px;
+}
+
+table.summary-table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+    margin: 15px 0px;
+    margin-bottom: 30px;
+}
+
+
+table.summary-table thead tr th{
+    background-color: #2f97a0;
+    color: #ffffff;
+    text-align: left;
+    line-height: 20px;
+    font-size: 1.1em;
+}
+
+table.summary-table thead tr th:first-child{
+    width: 46%;
+}
+
+table.summary-table th, table.summary-table td {
+    padding: 25px 33px;
+}
+
+table.summary-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table.summary-table tbody tr:hover{
+    border-bottom: 1px solid #32a0a0;
+}
+
+table.summary-table tr td:last-child{
+    font-weight: 600;
+}
+
+div.total-price{
+    min-width: 400px;
+    max-width: 900px;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+div.invoice-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 5px 70px;
+}
+
+div.invoice-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    color: #2a8a9f;
+    padding: 20px;
+    margin-top: 27px;
+    text-underline-offset: 13px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+table.address-table{
+    border-collapse: collapse;
+    outline: 1px solid  #39b3a1;
+    padding: 33px;
+    width: 100%;
+}
+
+table.address-table tr.table-control{
+    height: 30px;
+}
+
+table.address-table td{    
+    padding: 12px 40px;
+}
+
+table.address-table td:first-child{    
+    width: 60%;
+}
+
+button.back-main{
+    margin-bottom: 19px;
+    border: 1px solid #2f98a0;
+    outline: none;
+    height: 46px;
+    width: 131px;
+    background: rgb(48 155 160);
+    color: #f7f7f7;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 11px;
+    padding: 2px 0px;
+    letter-spacing: 0.5px;
+}
+
+button.back-main:hover{
+    cursor: pointer;
+    box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+    transition: 0.1s all;
+}
+
+div.thank-you{
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 17px;   
+    margin-bottom: 28px;
+}
