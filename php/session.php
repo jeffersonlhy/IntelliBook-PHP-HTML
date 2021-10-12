@@ -8,6 +8,3 @@ if (!isset($_SESSION['loggedin'])){
     $_SESSION['loggedin'] = False;
 }
 
-// if (!isset($_SESSION['cart'])) {
-//     $_SESSION['cart'] = array();
-// }
